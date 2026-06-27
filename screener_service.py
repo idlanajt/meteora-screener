@@ -279,7 +279,6 @@ def run_screening():
     top = ranked[:4]
 
     # ── Update shared state ──
-    global last_screening_time, next_screening_time, screening_status
     last_screening_time = datetime.now(timezone.utc).isoformat()
     next_screening_time = (
         datetime.now(timezone.utc).timestamp() + SCREENING_INTERVAL
