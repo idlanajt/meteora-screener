@@ -38,8 +38,8 @@ logging.basicConfig(
 logger = logging.getLogger("screener")
 
 # ── Config from environment ──────────────────────────────────────────────────
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8834794355:AAF1iEdkP45xPkOw8jsRKJInSxMunPKDEaE")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "7456917534")
 SCREENING_INTERVAL = int(os.environ.get("SCREENING_INTERVAL", "72000"))  # 20 jam
 TELEGRAM_API = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
 
